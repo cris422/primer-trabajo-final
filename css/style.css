@@ -1,0 +1,28 @@
+.text-herramientas {
+    border-radius: 10px;
+    background-color: #1686e7;
+    color: #fff;
+    width: 45%;
+  }
+  .tarjetaHogar {
+    height: 550px;
+  }
+  .textHogar {
+    border-radius: 10px;
+    background-color: #f0ec12;
+    width: 50%;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    border: rgb(162, 160, 160);
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card:hover {
+    box-shadow: 5px 5px 20px rgba(54, 54, 54, 0.5);
+    transform: translateY(0%);
+  }
