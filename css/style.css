@@ -32,3 +32,8 @@ body {
   .imgPosition {
     position: sticky;
   }
+  .select {
+    border: 1px;
+    background-color: #fff;
+    color: #004cd8;
+  }
