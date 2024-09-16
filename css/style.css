@@ -1,0 +1,16 @@
+:root{
+    --azul: #1686e7;
+    --verde:#00a650;
+    --amarillo:#f0ec12;
+    --negro:#2F2F2F;
+    --gris-claro:#ddd8d8;
+    --blanco:#fff;
+    
+}
+
+.footer{
+    background-color: #2F2F2F;
+    color:var(--blanco);
+    padding: 20px;
+    
+} 
