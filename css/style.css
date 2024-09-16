@@ -1,6 +1,11 @@
 body {
     background-color: #ddd8d8;
   }
+  .button {
+    height: 35px;
+    margin: 2px;
+    border-radius: 10px;
+  }
   .container {
     background-color: #fff;
   }
