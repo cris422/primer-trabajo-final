@@ -1,47 +1,79 @@
+body {
+  background-color: #ddd8d8;
+}
 .navbar {
-    background-image: linear-gradient(0deg, #808080 0%, #0c406e 100%); 
-     
-     }
+  background-image: linear-gradient(0deg, #808080 0%, #0c406e 100%);
+}
 /* carousel de imagenes */
 .carrusel {
-    height: 250px;
-    object-fit: cover;
+  height: 250px;
+  object-fit: cover;
 }
-
 
 /* tarejtas de compras  */
 .text-herramientas {
-    border-radius: 10px;
-    background-color: #1686e7;
-    color: #fff;
-    width: 45%;
-  }
-  .tarjetaHogar {
-    height: 550px;
-  }
-  .textHogar {
-    border-radius: 10px;
-    background-color: #f0ec12;
-    width: 50%;
+  border-radius: 10px;
+  background-color: #1686e7;
+  color: #fff;
+  width: 45%;
+}
+.tarjetaHogar {
+  height: 550px;
+}
+.textHogar {
+  border-radius: 10px;
+  background-color: #f0ec12;
+  width: 50%;
 }
 
+.button {
+  height: 35px;
+  margin: 2px;
+  border-radius: 10px;
+}
+.container {
+  background-color: #fff;
+}
 .card {
-    width: 300px;
-    height: 500px;
-    border-radius: 10px;
-    border: rgb(162, 160, 160);
-    overflow: hidden;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card:hover {
-    box-shadow: 5px 5px 20px rgba(54, 54, 54, 0.5);
-    transform: translateY(0%);
-  }
+  width: 300px;
+  height: 400px;
+
+  border-radius: 10px;
+  border: rgb(162, 160, 160);
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(54, 54, 54, 0.5);
+  transform: translateY(0%);
+}
+/* detalle de card */
+.imgPosition {
+  position: sticky;
+}
+.ulPunto {
+  list-style: none;
+}
+/* tablas de descripcion */
+.tablasDescriocion {
+  border-radius: 10px;
+  width: 100%;
+  height: 220px;
+}
+.imgPosition {
+  position: sticky;
+}
+.select {
+  border: 1px;
+  background-color: #fff;
+  color: #004cd8;
+}
+
 /* carrusel de imagen */
-  @media screen and (min-width: 992px) {
-    .carrusel {
-      height: 600px;
-      object-position: 50% 47%;
-    }
+@media screen and (min-width: 992px) {
+  .carrusel {
+    height: 600px;
+    object-position: 50% 47%;
   }
+}
