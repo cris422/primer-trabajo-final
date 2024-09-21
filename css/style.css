@@ -9,6 +9,49 @@
     
 }
 
+
+label{
+    display: block;
+    
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    
+    
+}
+
+.boton{
+    background-color: var(--azul);
+    padding: 10px;
+    color:var(--blanco);
+    border-radius: 6px;
+    box-shadow: 0px;
+    border-color:var(--blanco);
+    width: 30%;
+    margin-top: 5px;
+
+}
+
+.boton:hover{
+    background-color: #2679f5;
+}
+
+.franjaAmarilla{
+    background-color: var(--amarillo);
+    color: var(--negro);
+    text-align: center;
+    padding: 20px;
+  
+  }
+
+  select{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+  }
+
 .footer{
     background-color: #2F2F2F;
     color:var(--blanco);
@@ -98,3 +141,4 @@ body {
     object-position: 50% 47%;
   }
 }
+
