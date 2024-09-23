@@ -1,20 +1,56 @@
-
-:root{
-    --azul: #1686e7;
-    --verde:#00a650;
-    --amarillo:#f0ec12;
-    --negro:#2F2F2F;
-    --gris-claro:#ddd8d8;
-    --blanco:#fff;
-    
+:root {
+  --azul: #0c406e;
+  --verde: #00a650;
+  --amarillo: #f0ec12;
+  --negro: #2f2f2f;
+  --gris-claro: #ddd8d8;
+  --gris-oscuro:#808080;
+  --blanco: #fff;
 }
 
-.footer{
-    background-color: #2F2F2F;
-    color:var(--blanco);
-    padding: 20px;
-    
-} 
+.labelContactos {
+  display: block;
+}
+
+.inputContactos {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.boton {
+  background-color: var(--azul);
+  padding: 10px;
+  color: var(--blanco);
+  border-radius: 6px;
+  box-shadow: 0px;
+  border-color: var(--blanco);
+  width: 30%;
+  margin-top: 5px;
+}
+
+.boton:hover {
+  background-color: #2679f5;
+}
+
+.franjaAmarilla {
+  background-image:#808080;
+  color: var(--negro);
+  text-align: center;
+  padding: 20px;
+}
+
+select {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.footer {
+  background-color: #2f2f2f;
+  color: var(--blanco);
+  padding: 20px;
+  margin-top: 05px;
+}
 
 body {
   background-color: #ddd8d8;
@@ -22,8 +58,9 @@ body {
 .navbar {
   background-image: linear-gradient(0deg, #808080 0%, #0c406e 100%);
 }
-.active{
-    font-weight: 200px;
+.active1 {
+  font-weight: 700;
+  text-decoration: underline;
 }
 /* carousel de imagenes */
 .carrusel {
@@ -47,7 +84,7 @@ body {
   width: 50%;
 }
 
-.button {
+.button1 {
   height: 35px;
   margin: 2px;
   border-radius: 10px;
