@@ -37,9 +37,9 @@
     background-color: #2679f5;
   }
   
-  .franjaAmarilla{
-    background-color: var(--amarillo);
-    color: var(--negro);
+  .franjaColor{
+    background: linear-gradient(#0c406e, #808080) ;
+    color: var(--blanco);
     text-align: center;
     padding: 20px;
   
