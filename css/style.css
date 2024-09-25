@@ -4,7 +4,7 @@
   --amarillo: #f0ec12;
   --negro: #2f2f2f;
   --gris-claro: #ddd8d8;
-  --gris-oscuro:#808080;
+  --gris-oscuro: #808080;
   --blanco: #fff;
 }
 
@@ -33,13 +33,13 @@
 }
 
 .franjaAmarilla {
-  background-image:#808080;
+  background-image: #808080;
   color: var(--negro);
   text-align: center;
   padding: 20px;
 }
 
-select {
+.select {
   width: 100%;
   margin-bottom: 15px;
   padding: 5px;
