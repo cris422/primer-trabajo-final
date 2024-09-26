@@ -134,6 +134,59 @@ body {
   color: #004cd8;
 }
 
+/* pagina de registro */
+
+.botonRegistro {
+  background-color: #1c64ad;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.formRegistro {
+    padding: 20px;
+    border: 1px solid #cccccc4e;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.labelRegistro{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inputRegistro{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d1dadbea;
+    border-radius: 5px;
+    
+    
+}
+
+/*para celulares*/
+@media only screen and (max-width: 768px) {
+     .formRegistro {
+      width: 90%;
+      margin: 20px auto;
+    }
+    .inputRegistro{
+      width: 100%;
+    }
+  }
+
+  /*para compus y tablets*/
+  
+  @Media only screen and (min-width: 769px) {
+  .formRegistro {
+    width: 50%;
+    margin: 20px auto;
+  }
+}
+
 /* carrusel de imagen */
 @media screen and (min-width: 992px) {
   .carrusel {
