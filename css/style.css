@@ -6,7 +6,15 @@
     --negro:#2F2F2F;
     --gris-claro:#ddd8d8;
     --blanco:#fff;
+  }
+  
+  
+  .display{
+    display: block;
     
+  }
+  
+  .anchoInput{
 }
 
 
@@ -20,6 +28,9 @@ input{
     margin-bottom: 20px;
     
     
+  }
+  
+  .boton{
 }
 
 .boton{
@@ -31,6 +42,16 @@ input{
     border-color:var(--blanco);
     width: 30%;
     margin-top: 5px;
+  
+  }
+  
+  .boton:hover{
+    background-color: #2679f5;
+  }
+  
+  .franjaColor{
+    background: linear-gradient(#0c406e, #808080) ;
+    color: var(--blanco);
 
 }
 
@@ -43,6 +64,35 @@ input{
     color: var(--negro);
     text-align: center;
     padding: 20px;
+  
+  }
+  .cont{
+    width: 100%;
+  }
+  
+  
+  .publicidad{
+    height: 400px;
+    margin-bottom: 30px;
+    object-fit: cover;
+  }
+  
+  .resaltadoLetra{
+    color: var(--blanco);
+  }
+  
+  .contenedorP{
+    position: relative;
+  }
+  
+  .contenedorP h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--negro);
+    font-size: x-large;
   
   }
 
