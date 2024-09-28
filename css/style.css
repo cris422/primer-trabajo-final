@@ -9,12 +9,12 @@
   }
   
   
-  label{
+  .display{
     display: block;
     
   }
   
-  input{
+  .anchoInput{
     width: 100%;
     margin-bottom: 20px;
     
@@ -44,13 +44,6 @@
     padding: 20px;
   
   }
-  
-  select{
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 5px;
-  }
-  
   .cont{
     width: 100%;
   }
