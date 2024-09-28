@@ -6,21 +6,21 @@
   
   }
   
-  table, th, td{
+  .bordeTabla{
     border: 2px solid black;
   }
   
-  th, td{
+  .padColumnas{
     padding: 10px;
     text-align: center;
     
   }
   
-  th{
+  .colorTh{
     color:#0c406e ;
   }
   
-  td img{
+  .tamañoImg{
     height: 80px;
     width: 80px;
     object-fit: cover;
