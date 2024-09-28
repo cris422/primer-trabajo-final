@@ -66,12 +66,6 @@
   cursor: default;
   }
   
-  table tr{
+  .colorTabla{
     background-color: #fdf7f7;
-  }
-  
-  table tbody tr:hover{
-    background-color:var(--gris-claro) ;
-    transition: 0,3;
-  
   }
