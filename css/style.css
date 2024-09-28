@@ -1,3 +1,4 @@
+
 :root{
     --azul: #1686e7;
     --verde:#00a650;
@@ -5,7 +6,6 @@
     --negro:#2F2F2F;
     --gris-claro:#ddd8d8;
     --blanco:#fff;
-    
   }
   
   
@@ -15,6 +15,15 @@
   }
   
   .anchoInput{
+}
+
+
+label{
+    display: block;
+    
+}
+
+input{
     width: 100%;
     margin-bottom: 20px;
     
@@ -22,6 +31,9 @@
   }
   
   .boton{
+}
+
+.boton{
     background-color: var(--azul);
     padding: 10px;
     color:var(--blanco);
@@ -40,6 +52,16 @@
   .franjaColor{
     background: linear-gradient(#0c406e, #808080) ;
     color: var(--blanco);
+
+}
+
+.boton:hover{
+    background-color: #2679f5;
+}
+
+.franjaAmarilla{
+    background-color: var(--amarillo);
+    color: var(--negro);
     text-align: center;
     padding: 20px;
   
@@ -73,3 +95,100 @@
     font-size: x-large;
   
   }
+
+  select{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+  }
+
+.footer{
+    background-color: #2F2F2F;
+    color:var(--blanco);
+    padding: 20px;
+    
+} 
+
+body {
+  background-color: #ddd8d8;
+}
+.navbar {
+  background-image: linear-gradient(0deg, #808080 0%, #0c406e 100%);
+}
+.active{
+    font-weight: 200px;
+}
+/* carousel de imagenes */
+.carrusel {
+  height: 250px;
+  object-fit: cover;
+}
+
+/* tarejtas de compras  */
+.text-herramientas {
+  border-radius: 10px;
+  background-color: #1686e7;
+  color: #fff;
+  width: 45%;
+}
+.tarjetaHogar {
+  height: 550px;
+}
+.textHogar {
+  border-radius: 10px;
+  background-color: #f0ec12;
+  width: 50%;
+}
+
+.button {
+  height: 35px;
+  margin: 2px;
+  border-radius: 10px;
+}
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+}
+.card {
+  width: 300px;
+  height: 470px;
+  border-radius: 10px;
+  border: rgb(162, 160, 160);
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(54, 54, 54, 0.5);
+  transform: translateY(0%);
+}
+/* detalle de card */
+.imgPosition {
+  position: sticky;
+}
+.ulPunto {
+  list-style: none;
+}
+/* tablas de descripcion */
+.tablasDescriocion {
+  border-radius: 10px;
+  width: 100%;
+  height: 220px;
+}
+.imgPosition {
+  position: sticky;
+}
+.select {
+  border: 1px;
+  background-color: #fff;
+  color: #004cd8;
+}
+
+/* carrusel de imagen */
+@media screen and (min-width: 992px) {
+  .carrusel {
+    height: 600px;
+    object-position: 50% 47%;
+  }
+}
+
