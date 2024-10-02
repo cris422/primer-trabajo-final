@@ -1,4 +1,76 @@
 
+.franjaColor{
+    background: linear-gradient(#0c406e, #808080) ;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  
+  }
+  
+  .bordeTabla{
+    border: 2px solid black;
+  }
+  
+  .padColumnas{
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  .colorTh{
+    color:#0c406e ;
+  }
+  
+  .tamañoImg{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    
+  }
+  
+  .botonEliminar {
+    background-color: #808080; 
+    color: #FFFFFF; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius: 7px;
+  }
+  .botonAgregar {
+    background-color: #808080; 
+    color: #FFFFFF; 
+    border: none; 
+    padding: 10px 19px; 
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius: 7px;
+  }
+  
+  .botonEliminar:hover {
+    background-color: #CC0000; 
+    transition: 0.3s; 
+  }
+  .botonAgregar:hover {
+    background-color: rgb(34, 121, 34); 
+    transition: 0.3s; 
+  }
+  
+  
+  .botonPrecio {
+    background-color:#0c406e; 
+    color: #FFFFFF; 
+    border: none; 
+    padding: 5px 10px; 
+    font-size: 16px;
+    border-radius: 7px;
+  cursor: default;
+  }
+  
+  .colorTabla{
+    background-color: #fdf7f7;
+  }
+
 :root{
     --azul: #1686e7;
     --verde:#00a650;
@@ -191,4 +263,3 @@ body {
     object-position: 50% 47%;
   }
 }
-
