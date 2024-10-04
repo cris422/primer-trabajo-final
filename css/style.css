@@ -167,28 +167,8 @@ select {
   width: 100%;
 }
 
-.publicidad {
-  height: 400px;
-  margin-bottom: 30px;
-  object-fit: cover;
-}
-
 .resaltadoLetra {
   color: var(--blanco);
-}
-
-.contenedorP {
-  position: relative;
-}
-
-.contenedorP h2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: var(--negro);
-  font-size: x-large;
 }
 body {
   background-color: #ddd8d8;
@@ -203,6 +183,40 @@ body {
 /* carousel de imagenes */
 .carrusel {
   height: 250px;
+  object-fit: cover;
+}
+/* pubicidad section */
+.contenedorP{
+  position: relative;
+}
+
+.contenedorP h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--negro);
+  font-size: x-large;
+
+}
+.contenedorP h4{
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: var(--negro);
+  font-size: x-large;
+}
+
+
+.lRoja{
+  color: red;
+}
+.publicidad{
+  height: 400px;
+  margin-bottom: 30px;
   object-fit: cover;
 }
 
