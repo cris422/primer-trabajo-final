@@ -186,11 +186,11 @@ body {
   object-fit: cover;
 }
 /* pubicidad section */
-.contenedorP{
+.contenedorP {
   position: relative;
 }
 
-.contenedorP h2{
+.contenedorP h2 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -198,9 +198,8 @@ body {
   text-align: center;
   color: var(--negro);
   font-size: x-large;
-
 }
-.contenedorP h4{
+.contenedorP h4 {
   position: absolute;
   top: 20%;
   left: 40%;
@@ -210,11 +209,10 @@ body {
   font-size: x-large;
 }
 
-
-.lRoja{
+.lRoja {
   color: red;
 }
-.publicidad{
+.publicidad {
   height: 400px;
   margin-bottom: 30px;
   object-fit: cover;
