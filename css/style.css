@@ -6,14 +6,35 @@
   --gris-claro: #ddd8d8;
   --gris-oscuro: #808080;
   --blanco: #fff;
+  --azul-claro: #1686e7;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
+body {
+  background-color: #ddd8d8;
+}
+label {
+  display: block;
+}
 
+input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+select {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.navbarBucar {
+  border-radius: 5px;
+  border: 1px soli --negro;
+  margin: 5px;
+}
 .labelContactos {
   display: block;
 }
@@ -21,17 +42,6 @@
 .inputContactos {
   width: 100%;
   margin-bottom: 20px;
-}
-
-.boton {
-  background-color: var(--azul);
-  padding: 10px;
-  color: var(--blanco);
-  border-radius: 6px;
-  box-shadow: 0px;
-  border-color: var(--blanco);
-  width: 30%;
-  margin-top: 5px;
 }
 
 .boton:hover {
@@ -57,7 +67,129 @@
   padding: 20px;
   margin-top: 05px;
 }
+.bordeTabla {
+  border: 2px solid black;
+}
 
+.padColumnas {
+  padding: 10px;
+  text-align: center;
+}
+
+.colorTh {
+  color: #0c406e;
+}
+
+.tamañoImg {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+}
+
+.botonEliminar {
+  background-color: #808080;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.botonAgregar {
+  background-color: #808080;
+  color: #ffffff;
+  border: none;
+  padding: 10px 19px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.botonEliminar:hover {
+  background-color: #cc0000;
+  transition: 0.3s;
+}
+.botonAgregar:hover {
+  background-color: rgb(34, 121, 34);
+  transition: 0.3s;
+}
+
+.botonPrecio {
+  background-color: #0c406e;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 7px;
+  cursor: default;
+}
+
+.colorTabla {
+  background-color: #fdf7f7;
+}
+
+.display {
+  display: block;
+}
+.boton {
+  background-color: var(--azul);
+  padding: 10px;
+  color: var(--blanco);
+  border-radius: 6px;
+  box-shadow: 0px;
+  border-color: var(--blanco);
+  width: 30%;
+  margin-top: 5px;
+}
+
+.boton:hover {
+  background-color: #2679f5;
+}
+
+.franjaColor {
+  background: #808080;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.boton:hover {
+  background-color: #2679f5;
+}
+
+.franjaAmarilla {
+  background-color: #808080;
+  color: var(--negro);
+  text-align: center;
+  padding: 20px;
+}
+.cont {
+  width: 100%;
+}
+
+.publicidad {
+  height: 400px;
+  margin-bottom: 30px;
+  object-fit: cover;
+}
+
+.resaltadoLetra {
+  color: var(--blanco);
+}
+
+.contenedorP {
+  position: relative;
+}
+
+.contenedorP h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--negro);
+  font-size: x-large;
+}
 body {
   background-color: #ddd8d8;
 }
@@ -93,7 +225,7 @@ body {
 .button1 {
   background-color: #3e86f3;
   color: #fff;
-  border: 1px solid ;
+  border: 1px solid;
   height: 30px;
   margin: 2px;
   border-radius: 5px;
@@ -116,9 +248,6 @@ body {
   transform: translateY(0%);
 }
 /* detalle de card */
-.imgPosition {
-  position: sticky;
-}
 .ulPunto {
   list-style: none;
 }
@@ -127,9 +256,6 @@ body {
   border-radius: 10px;
   width: 100%;
   height: 220px;
-}
-.imgPosition {
-  position: sticky;
 }
 .select {
   border: 1px;
@@ -169,7 +295,7 @@ body {
 /* carrusel de imagen */
 @media screen and (min-width: 992px) {
   .carrusel {
-    height: 600px;
+    height: 100px;
     object-position: 50% 47%;
   }
 }
