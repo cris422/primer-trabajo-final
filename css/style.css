@@ -182,7 +182,7 @@ body {
 }
 /* carousel de imagenes */
 .carrusel {
-  height: 250px;
+  height: 350px;
   object-fit: cover;
 }
 /* pubicidad section */
@@ -309,7 +309,7 @@ body {
 /* carrusel de imagen */
 @media screen and (min-width: 992px) {
   .carrusel {
-    height: 100px;
+    height: 600px;
     object-position: 50% 47%;
   }
 }
