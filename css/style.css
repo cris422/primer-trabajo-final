@@ -227,6 +227,8 @@ body {
 }
 .tarjetaHogar {
   height: 550px;
+  display: flex;
+  align-items: center;
 }
 .textHogar {
   border-radius: 10px;
@@ -311,3 +313,9 @@ body {
     object-position: 50% 47%;
   }
 }
+@media screen and (max-height: 896px){
+  .tarjetaHogar{
+    display: flex;
+    justify-content: center;
+  }
+} 
